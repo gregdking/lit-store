@@ -1,0 +1,20 @@
+{
+    "name": "vite-project",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "prettier . --write && xo && vite",
+        "build": "prettier . --write && xo && tsc && vite build",
+        "preview": "prettier . --write && xo && vite preview"
+    },
+    "dependencies": {
+        "lit": "^2.7.6"
+    },
+    "devDependencies": {
+        "prettier": "3.0.2",
+        "typescript": "^5.0.2",
+        "vite": "^4.4.5",
+        "xo": "^0.56.0"
+    }
+}
