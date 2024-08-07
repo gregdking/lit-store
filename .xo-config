@@ -2,6 +2,9 @@
     "prettier": true,
     "rules": {
         "@typescript-eslint/consistent-type-definitions": "off",
+        "@typescript-eslint/member-ordering": "off",
+        "import/extensions": "off",
+        "import/no-unassigned-import": "off",
         "unicorn/template-indent": [
             "error",
             {
